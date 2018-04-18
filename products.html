@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <title>Biofrafia de Steve Jobs</title>
+      <link rel="stylesheet" type="text/css" href="_css/style.css">
+      <link rel="stylesheet" type="text/css" href="_css/products.css">
+      <link rel="stylesheet" type="_imagens/css" href="_imagens/products.css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+       <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+	 <header>
+
+                  <nav>
+
+                        <div class="menu-icone">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">STEVE JOBS</div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#Steve Jobs">Sobre</a></li>
+                                    <li><a href="products.html">Produtos</a></li>
+                                    <li><a href="#Nome">Contato</a></li>
+                                    <li><a href="iphone.html">iPhone X</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+	<div class="fundo">
+	<div id="esquerda">
+	<h2>Apple I</h2>
+<p>O primeiro computador com a marca Apple surgiu após um acordo feito entre Jobs e o dono da loja The Byte Shop, Paul Terrel. Ele e sua equipe tinham que construir 50 máquinas funcionais em um período máximo de 30 dias, a um preço de US$ 500 por unidade.
+Após trabalhar dia e noite, o pequeno time de desenvolvedores conseguiu entregar as unidades pedidas do Apple I, encontrando no processo um meio de financiar a companhia sem ter que ceder nenhuma ação a investidores externos.</p>
+<h2>Apple II</h2>
+<p>Apresentado pela primeira vez em 1977. A máquina se destacava pela inclusão de um display com grande qualidade para a época.  A ideia de Jobs que guiou o desenvolvimento do produto era a de que a máquina pudesse ser usada imediatamente após ser retirada da caixa.
+O modelo recebeu diversas melhorias em seu período de vida, incluindo telas e sistemas de som aprimorados e a incorporação de várias funções que até então precisassem de acessórios complementares para funcionar.</p>
+<h2>Macintosh</h2>
+<p>O Macintosh foi o primeiro produto da Apple a integrar a filosofia de desenvolvimento "de uma ponta a outra". Para Jobs, os melhores produtos eram os aparelhos completos com o software talhado para o hardware, e vice-versa. De acordo com essa linha de pensamento, há um sacrifício nas funcionalidades de um equipamento quando o sistema operacional e os softwares são desenvolvidos de forma genérica, para vários hardwares diferentes, havendo sempre o risco de incompatibilidade. Essa filosofia seria reafirmada anos depois com o iMac, iPod, iPhone e iPad.</p>
+</div>
+<div id="direita">
+<h2>iMac</h2>
+<p>O iMac foi o primeiro computador introduzido no mercado com várias características avançadas, principalmente pelo seu design inovador e pelo material utilizado, basicamente o plástico translúcido e colorido, o que decretou a morte da cor padrão para PCs (o bege), e a partir de então muitos deles passaram a usar este tipo de material nos produtos de informática em geral.</p>
+<h2>Mac OS X</h2>
+<p>Em 2000 foi lançado o Mac OS X. Criando uma nova e poderosa plataforma que uniu o poder e a estabilidade do sistema Unix com a praticidade e elegância do tradicional Mac OS.
+iPod, iTunes, iPhone e iPad
+Em 1996, a Apple anunciou a compra da NeXT Computers, o que levou Steve Jobs de volta à empresa que ajudou a fundar. Após assumir os cargos de consultor e de CEO interino, decidido a reformulá-la no que fosse preciso.
+Em 2001, foi apresentado produtos revolucionários como iPod e iTunes, que revolucionaram a indústria da musica, que passou agora a ser digital. Outros sinônimos de sucesso são o iPhone, cujo primeiro modelo foi apresentado em 2007, e o iPad, aparelho que, praticamente sozinho, foi responsável por tornar viável o mercado de tablets.</p>
+</div>
+</div>
+   	<ul id="products">
+		<li id="apple1"><span>Apple 1</span></li>
+		<li id="apple2"><span>Apple 2</span></li>
+		<li id="macintosh"><span>Macintosh</span></li>
+		<li id="imac"><span>iMac</span></li>
+		<li id="macx"><span>Mac OS X</span></li>
+	</ul>
+      <script type="text/javascript">
+
+      // botão do menu
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Efeito Scroll
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+<footer id="rodape">
+		<p> 
+			João Corrêa | João Luquetti<br/>
+			Copyright 2018
+		</p>
+	</footer>
+</body>
+</html>

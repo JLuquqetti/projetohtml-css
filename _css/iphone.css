@@ -1,0 +1,29 @@
+.tabela{
+	float: right;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	border-top: 1px solid;
+	margin-right: 30px;
+	margin-top: -600px;
+	margin-bottom: 100px;
+}
+.ce{
+	border-color: #000000;
+	border-bottom: 1px solid;
+	font-weight: bold;
+	font-size: 16pt;
+	padding: 10px;
+}
+.cd{
+	border-color: #000000;
+	border-bottom: 1px solid;
+	font-size: 12pt;
+	padding: 10px;
+}
+caption{
+	font-size: 20pt;
+	font-weight: bold;
+}
+iframe{
+	margin-top: 200px;
+}

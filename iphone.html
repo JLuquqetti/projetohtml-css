@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <title>Biofrafia de Steve Jobs</title>
+      <link rel="stylesheet" type="text/css" href="_css/iphone.css">
+      <link rel="stylesheet" type="text/css" href="_css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="cabecalho">
+            <header>
+                  <nav>
+                        <div class="menu-icone">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                        <div class="logo">STEVE JOBS</div>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#Steve Jobs">Sobre</a></li>
+                                    <li><a href="products.html">Produtos</a></li>
+                                    <li><a href="#Nome">Contato</a></li>
+                                    <li><a href="iphone.html">iPhone X</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+            </header>
+            <iframe
+                  width="600"
+                  height="400"
+                  src="https://www.youtube.com/embed/e3ljA2GrJsc" frameborder="0"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen>      
+            </iframe>
+            <p>
+                  <table class="tabela">
+                        <caption>
+                              iPhone X | Especificações
+                        </caption>
+                              <tr>
+                                    <td class="ce">Cor</td>
+                                    <td class="cd">Cinza Espacial / Prateado</td>
+                              </tr>      
+                              <tr>
+                                    <td class="ce">Capacidade</td>
+                                    <td class="cd">64GB / 256GB</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Dimensão da Tela</td>
+                                    <td class="cd">5,8 polegadas</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Resolução</td>
+                                    <td class="cd">2436x1125 pixels</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Processador</td>
+                                    <td class="cd">Apple A11 Bionic hexa-core</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Câmera traseira</td>
+                                    <td class="cd">Dupla de 12 MP, com lente grande angular de abertura f/1.8 e lente teleobjetiva de f/2.4</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Câmera frontal</td>
+                                    <td class="cd"> 7 MP, com abertura f/2.2 e gravação de vídeos em Full HD (1080p)</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Sistema</td>
+                                    <td class="cd">iOS 11</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Resistência à água</td>
+                                    <td class="cd">Sim</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Peso</td>
+                                    <td class="cd">174 gramas</td>
+                              </tr>
+                              <tr>
+                                    <td class="ce">Preço de lançamento</td>
+                                    <td class="cd">US$ 999 (cerca de R$ 3.100, em conversão direta, sem impostos)</td>
+                              </tr>
+                  </table>
+            </p>
+            <script type="text/javascript">
+
+      // botão do menu
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Efeito Scroll
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+      <footer id="rodape">
+            <p> 
+                  João Corrêa | João Luquetti<br/>
+                  Copyright 2018
+            </p>
+      </footer>
+</html>
